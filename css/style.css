@@ -1,0 +1,41 @@
+main {
+  width: 960px;
+  margin: 0 auto;
+}
+header{
+  background-color: rgb(68, 67, 67);
+  margin-bottom: 15px;
+}
+/* .header{
+  width: 960px;
+  align-content: center;
+} */
+
+li{
+  display: inline;
+  padding: 20px;
+  align-content: center;
+}
+
+img {
+  margin: 15px 0px 15px 0;
+}
+
+#middlerow{
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+#paragraph{
+  overflow: scroll;
+}
+
+h3{
+font-size: 1.5em;
+}
+
+footer{
+  height: 100px;
+  background-color: rgb(68, 67, 67);
+  margin-top: 15px;
+}
