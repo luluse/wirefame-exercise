@@ -28,14 +28,24 @@ img {
 
 #paragraph{
   overflow: scroll;
+  height: 400px;
+  padding-left: 30px; 
+  margin-top: 20px;
 }
 
 h3{
-font-size: 1.5em;
+font-size: 30px;
 }
 
 footer{
   height: 100px;
   background-color: rgb(68, 67, 67);
   margin-top: 15px;
+}
+
+#thirdRow{
+  float: left;
+}
+p{
+  font-size: 20px;
 }
