@@ -1,20 +1,34 @@
 main {
   width: 960px;
-  margin: 0 auto;
+  margin: auto;
 }
+
 header{
   background-color: rgb(68, 67, 67);
-  margin-bottom: 15px;
+  align-items: center;
+  height: 50px;
+  vertical-align: middle;
+  padding-top: 40px;
+  text-align: justify;
 }
-/* .header{
+
+#header{
   width: 960px;
-  align-content: center;
-} */
+  margin-left: auto;
+  margin-right: auto;
+} 
+
+#logo{
+position: relative;
+bottom: 45px;
+}
 
 li{
-  display: inline;
-  padding: 20px;
-  align-content: center;
+  display: inline-block;
+  position: relative;
+  bottom: 145px;
+  left: 300px;
+  padding: 35px;
 }
 
 img {
@@ -26,26 +40,38 @@ img {
   margin-right: 25px;
 }
 
-#paragraph{
-  overflow: scroll;
-  height: 400px;
-  padding-left: 30px; 
-  margin-top: 20px;
-}
-
 h3{
-font-size: 30px;
+  font-size: 30px;
 }
 
 footer{
   height: 100px;
   background-color: rgb(68, 67, 67);
-  margin-top: 15px;
 }
 
 #thirdRow{
   float: left;
 }
+
 p{
   font-size: 20px;
+}
+
+#paragraph{
+  overflow: scroll;
+  height: 360px;
+  padding-left: 30px; 
+  margin-top: 20px;
+}
+
+button{
+  padding: 10px 20px 10px 20px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  background-color: black;
+  color: white;
+}
+button:hover{
+  transition: 350ms;
+  background-color: pink;
 }
